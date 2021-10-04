@@ -1,0 +1,41 @@
+/* Root */
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-pick-color: #2196f3;
+  --primary-wight-color: #ffffff;
+}
+
+/* Body */
+
+.page {
+  background-color: var(--primary-wight-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav :focus {
+  color: var(--accent-pick-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-pick-color);
+}
+
+.contacts-header .contact {
+  color: var(--primary-text-color);
+}
+
+.contacts-header .contact:hover,
+.contacts-header .contact:focus {
+  color: var(--accent-pick-color);
+}
