@@ -6,11 +6,6 @@
 
 /* Button */
 
-.button {
-  color: var(--primary-wight-color);
-  background-color: var(--accent-pick-color);
-}
-
 .button.hero {
   color: var(--primary-wight-color);
   background-color: var(--accent-pick-color);
