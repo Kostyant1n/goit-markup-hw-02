@@ -1,15 +1,18 @@
 /* Root */
+
 :root {
   /* header color */
   --hdtitle-text-color: #212121;
   --hdprimary-text-color: #757575;
   --hdaccent-pick-color: #2196f3;
   --hdprimary-wight-color: #ffffff;
+
   /* main color */
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-pick-color: #2196f3;
   --primary-wight-color: #ffffff;
+
   /* footer color */
   --fttitle-text-color: #212121;
   --ftprimary-text-color: #757575;
