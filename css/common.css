@@ -1,15 +1,16 @@
 /* Root */
 :root {
+  /* header color */
   --hdtitle-text-color: #212121;
   --hdprimary-text-color: #757575;
   --hdaccent-pick-color: #2196f3;
   --hdprimary-wight-color: #ffffff;
-
+  /* main color */
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-pick-color: #2196f3;
   --primary-wight-color: #ffffff;
-
+  /* footer color */
   --fttitle-text-color: #212121;
   --ftprimary-text-color: #757575;
   --ftaccent-pick-color: #2196f3;
@@ -40,7 +41,7 @@ body {
 .header-logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -87,7 +88,7 @@ body {
 .footer-logo {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }

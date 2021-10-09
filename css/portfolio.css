@@ -20,12 +20,14 @@
   background-color: var(--ftaccent-pick-color);
 }
 
+/* Gallery */
+
 .gallery a {
   text-decoration: none;
 }
 
 .gallery .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

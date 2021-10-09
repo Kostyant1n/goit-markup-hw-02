@@ -28,7 +28,7 @@
 
 /* Advantages */
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -44,9 +44,10 @@
 
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
 }
 
 /* Features */
