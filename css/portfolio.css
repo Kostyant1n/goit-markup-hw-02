@@ -1,7 +1,40 @@
 /* Button */
 
 .button.filter {
-  color: #212121;
-  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--fttitle-text-color);
+  background: var(--ftprimary-wight-color);
   border-radius: 4px;
+  font-family: inherit;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  border: none;
+}
+
+.button.filter:hover,
+.button.filter:focus {
+  color: var(--ftprimary-wight-color);
+  background-color: var(--ftaccent-pick-color);
+}
+
+.gallery a {
+  text-decoration: none;
+}
+
+.gallery .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--fttitle-text-color);
+}
+
+.gallery p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--ftprimary-text-color);
 }
