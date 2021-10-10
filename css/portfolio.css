@@ -1,3 +1,9 @@
+/* Filter */
+
+.filter {
+  list-style: none;
+}
+
 /* Button-filter */
 
 .button.filter {
@@ -8,7 +14,6 @@
   color: var(--fttitle-text-color);
   background: var(--ftprimary-wight-color);
   border-radius: 4px;
-  font-family: inherit;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
   border: none;
